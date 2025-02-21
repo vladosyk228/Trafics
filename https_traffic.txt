@@ -1,0 +1,425 @@
+Packet (Length: 249)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m a0:f3:c1:80:0d:84
+[0m[1m[32m	Address:[0m[1m a0:f3:c1:80:0d:84
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m d8:bb:c1:93:8c:97
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m d8:bb:c1:93:8c:97
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 235
+[0m[1m[32m	Identification:[0m[1m 0x8509 (34057)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m TCP (6)
+[0m[1m[32m	Header Checksum:[0m[1m 0xb747 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 192.168.0.22
+[0m[1m[32m	Destination Address:[0m[1m 149.154.167.99
+[0m[1m[33mLayer TCP
+:[0m[1m[32m	Source Port:[0m[1m 46964
+[0m[1m[32m	Destination Port:[0m[1m 443
+[0m[1m[32m	Stream index:[0m[1m 0
+[0m[1m[32m	Conversation completeness:[0m[1m Incomplete (0)
+[0m[1m[32m	TCP Segment Len:[0m[1m 183
+[0m[1m[32m	Sequence Number:[0m[1m 1    (relative sequence number)
+[0m[1m[32m	Sequence Number (raw):[0m[1m 2431705649
+[0m[1m[32m	Next Sequence Number:[0m[1m 184    (relative sequence number)
+[0m[1m[32m	Acknowledgment Number:[0m[1m 1    (relative ack number)
+[0m[1m[32m	Acknowledgment number (raw):[0m[1m 4142230146
+[0m[1m[32m	1000 .... = Header Length:[0m[1m 32 bytes (8)
+[0m[1m[32m	Flags:[0m[1m 0x018 (PSH, ACK)
+[0m[1m[32m	000. .... .... = Reserved:[0m[1m Not set
+[0m[1m[32m	...0 .... .... = Nonce:[0m[1m Not set
+[0m[1m[32m	.... 0... .... = Congestion Window Reduced (CWR):[0m[1m Not set
+[0m[1m[32m	.... .0.. .... = ECN-Echo:[0m[1m Not set
+[0m[1m[32m	.... ..0. .... = Urgent:[0m[1m Not set
+[0m[1m[32m	.... ...1 .... = Acknowledgment:[0m[1m Set
+[0m[1m[32m	.... .... 1... = Push:[0m[1m Set
+[0m[1m[32m	.... .... .0.. = Reset:[0m[1m Not set
+[0m[1m[32m	.... .... ..0. = Syn:[0m[1m Not set
+[0m[1m[32m	.... .... ...0 = Fin:[0m[1m Not set
+[0m[1m[32m	TCP Flags:[0m[1m ·······AP···
+[0m[1m[32m	Window:[0m[1m 20591
+[0m[1m[32m	Calculated window size:[0m[1m 20591
+[0m[1m[32m	Window size scaling factor:[0m[1m -1 (unknown)
+[0m[1m[32m	Checksum:[0m[1m 0x342a [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Urgent Pointer:[0m[1m 0
+[0m[1m[32m	Options:[0m[1m (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+[0m[1m	TCP Option - No-Operation (NOP)
+[0m[1m[32m	Kind:[0m[1m No-Operation (1)
+[0m[1m[32m	TCP Option - Timestamps:[0m[1m TSval 364535945, TSecr 4180883469
+[0m[1m[32m	Length:[0m[1m 10
+[0m[1m[32m	Timestamp value:[0m[1m 364535945
+[0m[1m[32m	Timestamp echo reply:[0m[1m 4180883469
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame in this TCP stream:[0m[1m 0.000000000 seconds
+[0m[1m[32m	Time since previous frame in this TCP stream:[0m[1m 0.000000000 seconds
+[0m[1m	SEQ/ACK analysis
+[0m[1m[32m	Bytes in flight:[0m[1m 183
+[0m[1m[32m	Bytes sent since last PSH flag:[0m[1m 183
+[0m[1m	TCP payload (183 bytes)
+[0m[1m	TCP Option - No-Operation (NOP)
+[0m[1m[32m	Kind:[0m[1m No-Operation (1)
+[0m[1m[32m	Kind:[0m[1m Time Stamp Option (8)
+[0m[1m[33mLayer TLS
+:[0m[1m[32m	TLSv1.2 Record Layer:[0m[1m Application Data Protocol: http-over-tls
+[0m[1m[32m	Content Type:[0m[1m Application Data (23)
+[0m[1m[32m	Version:[0m[1m TLS 1.2 (0x0303)
+[0m[1m[32m	Length:[0m[1m 178
+[0m[1m[32m	Encrypted Application Data:[0m[1m 63376ddcc77bfaf91aa93a76b913a0e0b5da57e112affdf323501f452618baeb371b81b7…
+[0m[1m[32m	Application Data Protocol:[0m[1m http-over-tls
+[0m
+Packet (Length: 1294)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m d8:bb:c1:93:8c:97
+[0m[1m[32m	Address:[0m[1m d8:bb:c1:93:8c:97
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m a0:f3:c1:80:0d:84
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m a0:f3:c1:80:0d:84
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 1280
+[0m[1m[32m	Identification:[0m[1m 0x9368 (37736)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 54
+[0m[1m[32m	Protocol:[0m[1m TCP (6)
+[0m[1m[32m	Header Checksum:[0m[1m 0xaed3 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 149.154.167.99
+[0m[1m[32m	Destination Address:[0m[1m 192.168.0.22
+[0m[1m[33mLayer TCP
+:[0m[1m[32m	Source Port:[0m[1m 443
+[0m[1m[32m	Destination Port:[0m[1m 46964
+[0m[1m[32m	Stream index:[0m[1m 0
+[0m[1m[32m	Conversation completeness:[0m[1m Incomplete (0)
+[0m[1m[32m	TCP Segment Len:[0m[1m 1228
+[0m[1m[32m	Sequence Number:[0m[1m 1    (relative sequence number)
+[0m[1m[32m	Sequence Number (raw):[0m[1m 4142230146
+[0m[1m[32m	Next Sequence Number:[0m[1m 1229    (relative sequence number)
+[0m[1m[32m	Acknowledgment Number:[0m[1m 184    (relative ack number)
+[0m[1m[32m	Acknowledgment number (raw):[0m[1m 2431705832
+[0m[1m[32m	1000 .... = Header Length:[0m[1m 32 bytes (8)
+[0m[1m[32m	Flags:[0m[1m 0x010 (ACK)
+[0m[1m[32m	000. .... .... = Reserved:[0m[1m Not set
+[0m[1m[32m	...0 .... .... = Nonce:[0m[1m Not set
+[0m[1m[32m	.... 0... .... = Congestion Window Reduced (CWR):[0m[1m Not set
+[0m[1m[32m	.... .0.. .... = ECN-Echo:[0m[1m Not set
+[0m[1m[32m	.... ..0. .... = Urgent:[0m[1m Not set
+[0m[1m[32m	.... ...1 .... = Acknowledgment:[0m[1m Set
+[0m[1m[32m	.... .... 0... = Push:[0m[1m Not set
+[0m[1m[32m	.... .... .0.. = Reset:[0m[1m Not set
+[0m[1m[32m	.... .... ..0. = Syn:[0m[1m Not set
+[0m[1m[32m	.... .... ...0 = Fin:[0m[1m Not set
+[0m[1m[32m	TCP Flags:[0m[1m ·······A····
+[0m[1m[32m	Window:[0m[1m 127
+[0m[1m[32m	Calculated window size:[0m[1m 127
+[0m[1m[32m	Window size scaling factor:[0m[1m -1 (unknown)
+[0m[1m[32m	Checksum:[0m[1m 0x9140 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Urgent Pointer:[0m[1m 0
+[0m[1m[32m	Options:[0m[1m (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+[0m[1m	TCP Option - No-Operation (NOP)
+[0m[1m[32m	Kind:[0m[1m No-Operation (1)
+[0m[1m[32m	TCP Option - Timestamps:[0m[1m TSval 4180886516, TSecr 364535945
+[0m[1m[32m	Length:[0m[1m 10
+[0m[1m[32m	Timestamp value:[0m[1m 4180886516
+[0m[1m[32m	Timestamp echo reply:[0m[1m 364535945
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame in this TCP stream:[0m[1m 0.041153747 seconds
+[0m[1m[32m	Time since previous frame in this TCP stream:[0m[1m 0.041153747 seconds
+[0m[1m	SEQ/ACK analysis
+[0m[1m[32m	This is an ACK to the segment in frame:[0m[1m 1
+[0m[1m[32m	The RTT to ACK the segment was:[0m[1m 0.041153747 seconds
+[0m[1m[32m	Bytes in flight:[0m[1m 1228
+[0m[1m[32m	Bytes sent since last PSH flag:[0m[1m 1228
+[0m[1m	TCP payload (1228 bytes)
+[0m[1m	TCP segment data (1228 bytes)
+[0m[1m	TCP Option - No-Operation (NOP)
+[0m[1m[32m	Kind:[0m[1m No-Operation (1)
+[0m[1m[32m	Kind:[0m[1m Time Stamp Option (8)
+[0m[1m[33mLayer TLS
+:[0m
+Packet (Length: 535)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m d8:bb:c1:93:8c:97
+[0m[1m[32m	Address:[0m[1m d8:bb:c1:93:8c:97
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m a0:f3:c1:80:0d:84
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m a0:f3:c1:80:0d:84
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 521
+[0m[1m[32m	Identification:[0m[1m 0x9369 (37737)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 54
+[0m[1m[32m	Protocol:[0m[1m TCP (6)
+[0m[1m[32m	Header Checksum:[0m[1m 0xb1c9 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 149.154.167.99
+[0m[1m[32m	Destination Address:[0m[1m 192.168.0.22
+[0m[1m[33mLayer TCP
+:[0m[1m[32m	Source Port:[0m[1m 443
+[0m[1m[32m	Destination Port:[0m[1m 46964
+[0m[1m[32m	Stream index:[0m[1m 0
+[0m[1m[32m	Conversation completeness:[0m[1m Incomplete (12)
+[0m[1m[32m	TCP Segment Len:[0m[1m 469
+[0m[1m[32m	Sequence Number:[0m[1m 1229    (relative sequence number)
+[0m[1m[32m	Sequence Number (raw):[0m[1m 4142231374
+[0m[1m[32m	Next Sequence Number:[0m[1m 1698    (relative sequence number)
+[0m[1m[32m	Acknowledgment Number:[0m[1m 184    (relative ack number)
+[0m[1m[32m	Acknowledgment number (raw):[0m[1m 2431705832
+[0m[1m[32m	1000 .... = Header Length:[0m[1m 32 bytes (8)
+[0m[1m[32m	Flags:[0m[1m 0x018 (PSH, ACK)
+[0m[1m[32m	000. .... .... = Reserved:[0m[1m Not set
+[0m[1m[32m	...0 .... .... = Nonce:[0m[1m Not set
+[0m[1m[32m	.... 0... .... = Congestion Window Reduced (CWR):[0m[1m Not set
+[0m[1m[32m	.... .0.. .... = ECN-Echo:[0m[1m Not set
+[0m[1m[32m	.... ..0. .... = Urgent:[0m[1m Not set
+[0m[1m[32m	.... ...1 .... = Acknowledgment:[0m[1m Set
+[0m[1m[32m	.... .... 1... = Push:[0m[1m Set
+[0m[1m[32m	.... .... .0.. = Reset:[0m[1m Not set
+[0m[1m[32m	.... .... ..0. = Syn:[0m[1m Not set
+[0m[1m[32m	.... .... ...0 = Fin:[0m[1m Not set
+[0m[1m[32m	TCP Flags:[0m[1m ·······AP···
+[0m[1m[32m	Window:[0m[1m 127
+[0m[1m[32m	Calculated window size:[0m[1m 127
+[0m[1m[32m	Window size scaling factor:[0m[1m -1 (unknown)
+[0m[1m[32m	Checksum:[0m[1m 0x3607 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Urgent Pointer:[0m[1m 0
+[0m[1m[32m	Options:[0m[1m (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+[0m[1m	TCP Option - No-Operation (NOP)
+[0m[1m[32m	Kind:[0m[1m No-Operation (1)
+[0m[1m[32m	TCP Option - Timestamps:[0m[1m TSval 4180886516, TSecr 364535945
+[0m[1m[32m	Length:[0m[1m 10
+[0m[1m[32m	Timestamp value:[0m[1m 4180886516
+[0m[1m[32m	Timestamp echo reply:[0m[1m 364535945
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame in this TCP stream:[0m[1m 0.041222394 seconds
+[0m[1m[32m	Time since previous frame in this TCP stream:[0m[1m 0.000036599 seconds
+[0m[1m	SEQ/ACK analysis
+[0m[1m[32m	Bytes in flight:[0m[1m 469
+[0m[1m[32m	Bytes sent since last PSH flag:[0m[1m 1697
+[0m[1m	TCP payload (469 bytes)
+[0m[1m	TCP segment data (469 bytes)
+[0m[1m	TCP Option - No-Operation (NOP)
+[0m[1m[32m	Kind:[0m[1m No-Operation (1)
+[0m[1m[32m	Kind:[0m[1m Time Stamp Option (8)
+[0mDATA[1m[33mLayer TLS
+:[0m[1m[32m	TLSv1.2 Record Layer:[0m[1m Application Data Protocol: http-over-tls
+[0m[1m[32m	Content Type:[0m[1m Application Data (23)
+[0m[1m[32m	Version:[0m[1m TLS 1.2 (0x0303)
+[0m[1m[32m	Length:[0m[1m 1692
+[0m[1m[32m	Encrypted Application Data:[0m[1m 4f604a684a6cc9a28ca739099b710eb9fd040e2774ff23c62fda9983ea3f5a29ac303688…
+[0m[1m[32m	Application Data Protocol:[0m[1m http-over-tls
+[0m
+Packet (Length: 249)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m a0:f3:c1:80:0d:84
+[0m[1m[32m	Address:[0m[1m a0:f3:c1:80:0d:84
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m d8:bb:c1:93:8c:97
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m d8:bb:c1:93:8c:97
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 235
+[0m[1m[32m	Identification:[0m[1m 0x850c (34060)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m TCP (6)
+[0m[1m[32m	Header Checksum:[0m[1m 0xb744 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 192.168.0.22
+[0m[1m[32m	Destination Address:[0m[1m 149.154.167.99
+[0m[1m[33mLayer TCP
+:[0m[1m[32m	Source Port:[0m[1m 46964
+[0m[1m[32m	Destination Port:[0m[1m 443
+[0m[1m[32m	Stream index:[0m[1m 0
+[0m[1m[32m	Conversation completeness:[0m[1m Incomplete (12)
+[0m[1m[32m	TCP Segment Len:[0m[1m 183
+[0m[1m[32m	Sequence Number:[0m[1m 184    (relative sequence number)
+[0m[1m[32m	Sequence Number (raw):[0m[1m 2431705832
+[0m[1m[32m	Next Sequence Number:[0m[1m 367    (relative sequence number)
+[0m[1m[32m	Acknowledgment Number:[0m[1m 1698    (relative ack number)
+[0m[1m[32m	Acknowledgment number (raw):[0m[1m 4142231843
+[0m[1m[32m	1000 .... = Header Length:[0m[1m 32 bytes (8)
+[0m[1m[32m	Flags:[0m[1m 0x018 (PSH, ACK)
+[0m[1m[32m	000. .... .... = Reserved:[0m[1m Not set
+[0m[1m[32m	...0 .... .... = Nonce:[0m[1m Not set
+[0m[1m[32m	.... 0... .... = Congestion Window Reduced (CWR):[0m[1m Not set
+[0m[1m[32m	.... .0.. .... = ECN-Echo:[0m[1m Not set
+[0m[1m[32m	.... ..0. .... = Urgent:[0m[1m Not set
+[0m[1m[32m	.... ...1 .... = Acknowledgment:[0m[1m Set
+[0m[1m[32m	.... .... 1... = Push:[0m[1m Set
+[0m[1m[32m	.... .... .0.. = Reset:[0m[1m Not set
+[0m[1m[32m	.... .... ..0. = Syn:[0m[1m Not set
+[0m[1m[32m	.... .... ...0 = Fin:[0m[1m Not set
+[0m[1m[32m	TCP Flags:[0m[1m ·······AP···
+[0m[1m[32m	Window:[0m[1m 20591
+[0m[1m[32m	Calculated window size:[0m[1m 20591
+[0m[1m[32m	Window size scaling factor:[0m[1m -1 (unknown)
+[0m[1m[32m	Checksum:[0m[1m 0x89bd [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Urgent Pointer:[0m[1m 0
+[0m[1m[32m	Options:[0m[1m (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+[0m[1m	TCP Option - No-Operation (NOP)
+[0m[1m[32m	Kind:[0m[1m No-Operation (1)
+[0m[1m[32m	TCP Option - Timestamps:[0m[1m TSval 364538994, TSecr 4180886516
+[0m[1m[32m	Length:[0m[1m 10
+[0m[1m[32m	Timestamp value:[0m[1m 364538994
+[0m[1m[32m	Timestamp echo reply:[0m[1m 4180886516
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame in this TCP stream:[0m[1m 3.048904335 seconds
+[0m[1m[32m	Time since previous frame in this TCP stream:[0m[1m 3.007675686 seconds
+[0m[1m	SEQ/ACK analysis
+[0m[1m[32m	Bytes in flight:[0m[1m 183
+[0m[1m[32m	Bytes sent since last PSH flag:[0m[1m 183
+[0m[1m	TCP payload (183 bytes)
+[0m[1m	TCP Option - No-Operation (NOP)
+[0m[1m[32m	Kind:[0m[1m No-Operation (1)
+[0m[1m[32m	Kind:[0m[1m Time Stamp Option (8)
+[0m[1m[33mLayer TLS
+:[0m[1m[32m	TLSv1.2 Record Layer:[0m[1m Application Data Protocol: http-over-tls
+[0m[1m[32m	Content Type:[0m[1m Application Data (23)
+[0m[1m[32m	Version:[0m[1m TLS 1.2 (0x0303)
+[0m[1m[32m	Length:[0m[1m 178
+[0m[1m[32m	Encrypted Application Data:[0m[1m 68941f758b0be055825d7edad2c16fbd049a27d4f65bb42000ff5d5a807de272e5eab593…
+[0m[1m[32m	Application Data Protocol:[0m[1m http-over-tls
+[0m
+Packet (Length: 179)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m d8:bb:c1:93:8c:97
+[0m[1m[32m	Address:[0m[1m d8:bb:c1:93:8c:97
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m a0:f3:c1:80:0d:84
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m a0:f3:c1:80:0d:84
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 165
+[0m[1m[32m	Identification:[0m[1m 0x936a (37738)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 54
+[0m[1m[32m	Protocol:[0m[1m TCP (6)
+[0m[1m[32m	Header Checksum:[0m[1m 0xb32c [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 149.154.167.99
+[0m[1m[32m	Destination Address:[0m[1m 192.168.0.22
+[0m[1m[33mLayer TCP
+:[0m[1m[32m	Source Port:[0m[1m 443
+[0m[1m[32m	Destination Port:[0m[1m 46964
+[0m[1m[32m	Stream index:[0m[1m 0
+[0m[1m[32m	Conversation completeness:[0m[1m Incomplete (12)
+[0m[1m[32m	TCP Segment Len:[0m[1m 113
+[0m[1m[32m	Sequence Number:[0m[1m 1698    (relative sequence number)
+[0m[1m[32m	Sequence Number (raw):[0m[1m 4142231843
+[0m[1m[32m	Next Sequence Number:[0m[1m 1811    (relative sequence number)
+[0m[1m[32m	Acknowledgment Number:[0m[1m 367    (relative ack number)
+[0m[1m[32m	Acknowledgment number (raw):[0m[1m 2431706015
+[0m[1m[32m	1000 .... = Header Length:[0m[1m 32 bytes (8)
+[0m[1m[32m	Flags:[0m[1m 0x018 (PSH, ACK)
+[0m[1m[32m	000. .... .... = Reserved:[0m[1m Not set
+[0m[1m[32m	...0 .... .... = Nonce:[0m[1m Not set
+[0m[1m[32m	.... 0... .... = Congestion Window Reduced (CWR):[0m[1m Not set
+[0m[1m[32m	.... .0.. .... = ECN-Echo:[0m[1m Not set
+[0m[1m[32m	.... ..0. .... = Urgent:[0m[1m Not set
+[0m[1m[32m	.... ...1 .... = Acknowledgment:[0m[1m Set
+[0m[1m[32m	.... .... 1... = Push:[0m[1m Set
+[0m[1m[32m	.... .... .0.. = Reset:[0m[1m Not set
+[0m[1m[32m	.... .... ..0. = Syn:[0m[1m Not set
+[0m[1m[32m	.... .... ...0 = Fin:[0m[1m Not set
+[0m[1m[32m	TCP Flags:[0m[1m ·······AP···
+[0m[1m[32m	Window:[0m[1m 127
+[0m[1m[32m	Calculated window size:[0m[1m 127
+[0m[1m[32m	Window size scaling factor:[0m[1m -1 (unknown)
+[0m[1m[32m	Checksum:[0m[1m 0x4eb6 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Urgent Pointer:[0m[1m 0
+[0m[1m[32m	Options:[0m[1m (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+[0m[1m	TCP Option - No-Operation (NOP)
+[0m[1m[32m	Kind:[0m[1m No-Operation (1)
+[0m[1m[32m	TCP Option - Timestamps:[0m[1m TSval 4180889565, TSecr 364538994
+[0m[1m[32m	Length:[0m[1m 10
+[0m[1m[32m	Timestamp value:[0m[1m 4180889565
+[0m[1m[32m	Timestamp echo reply:[0m[1m 364538994
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame in this TCP stream:[0m[1m 3.089897928 seconds
+[0m[1m[32m	Time since previous frame in this TCP stream:[0m[1m 0.040993593 seconds
+[0m[1m	SEQ/ACK analysis
+[0m[1m[32m	This is an ACK to the segment in frame:[0m[1m 7
+[0m[1m[32m	The RTT to ACK the segment was:[0m[1m 0.040993593 seconds
+[0m[1m[32m	Bytes in flight:[0m[1m 113
+[0m[1m[32m	Bytes sent since last PSH flag:[0m[1m 113
+[0m[1m	TCP payload (113 bytes)
+[0m[1m	TCP Option - No-Operation (NOP)
+[0m[1m[32m	Kind:[0m[1m No-Operation (1)
+[0m[1m[32m	Kind:[0m[1m Time Stamp Option (8)
+[0m[1m[33mLayer TLS
+:[0m[1m[32m	TLSv1.2 Record Layer:[0m[1m Application Data Protocol: http-over-tls
+[0m[1m[32m	Content Type:[0m[1m Application Data (23)
+[0m[1m[32m	Version:[0m[1m TLS 1.2 (0x0303)
+[0m[1m[32m	Length:[0m[1m 108
+[0m[1m[32m	Encrypted Application Data:[0m[1m 35b6fa4fdc924dbc4067659cd1ae6edae33712565fbff9bfeb403a303dc071c772aac83c…
+[0m[1m[32m	Application Data Protocol:[0m[1m http-over-tls
+[0m
